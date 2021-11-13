@@ -23,3 +23,15 @@ video {
   height: auto;
   max-width: 100%;
 }
+
+/* images and videos max out at full width */
+canvas { 
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+}
+
+h1, h2 {
+
+}
