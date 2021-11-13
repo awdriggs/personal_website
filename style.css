@@ -24,7 +24,7 @@ video {
   max-width: 100%;
 }
 
-/* images and videos max out at full width */
+/* places p5 canvas in the top left corner */
 canvas { 
   position: absolute;
   left: 0;
@@ -33,5 +33,20 @@ canvas {
 }
 
 h1, h2 {
+ text-align: center;
+  margin: 0;
+}
+h1 {
+  font-size: 100px; 
+}
 
+h2 {
+  font-size: 70px;
+}
+
+.wrapper {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
